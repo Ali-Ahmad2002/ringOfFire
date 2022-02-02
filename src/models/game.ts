@@ -19,6 +19,6 @@ export class Game {
 }
 
 
-function shuffleArray(inputArray: any[]){
-    inputArray.sort(()=> Math.random() - 0.5);
+function shuffleArray(inputArray: any[]) {
+    inputArray.sort(() => Math.random() - 0.5);
 }
